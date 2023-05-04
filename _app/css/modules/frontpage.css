@@ -7,3 +7,8 @@ main {
 	height: 100vh;
 	margin: 0px auto 0px auto;
 }
+
+body {
+	background-image: url(/_app/assets/images/Background-image-frontpage.avif);
+	background-size: cover;
+}
