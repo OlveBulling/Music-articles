@@ -24,7 +24,7 @@ header {
 }
 
 .header__newsletter-button-container, .header__menu-button-container, .header__title-container {
-	background-color: black;
+	background-color: var(--secondary_background_color);
 	width: 321px;
 	height: 56px;
 	display: flex;
