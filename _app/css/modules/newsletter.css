@@ -1,0 +1,22 @@
+@import url(/_app/css/variables.css);
+
+main {
+	background-color: var(--newsletter-background_color);
+	width: 100%;
+	max-width: 870px;
+	height: 100vh;
+	margin: 0px auto 0px auto;
+}
+
+.header, .header__button{
+	background-color: var(--newsletter-background_color);
+}
+
+.header__title {
+	color: var(--newsletter-background_color);
+}
+
+body {
+	background-image: url(/_app/assets/images/Background-image-newsletter.avif);
+	background-size: cover;
+}
