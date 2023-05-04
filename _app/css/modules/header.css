@@ -9,6 +9,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0px auto 0px auto;
 }
 
 .header__button {
