@@ -1,0 +1,9 @@
+@import url(/_app/css/variables.css);
+
+main {
+	background-color: var(--frontpage_background_color);
+	width: 100%;
+	max-width: 870px;
+	height: 100vh;
+	margin: 0px auto 0px auto;
+}
