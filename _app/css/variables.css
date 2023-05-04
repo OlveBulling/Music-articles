@@ -1,5 +1,7 @@
 :root {
-	/* colors */
+	font-family: 'Inter',sans-serif;
+
+/* colors */
 	--frontpage_background_color: #F9A03F;
 	--article-background_color: #4ECDC4;
 	--newsletter-background_color: #F27B63;
@@ -7,6 +9,9 @@
 	--secondary_background_color: #000000;
 	--headline_color: #FFFFFF;
 
-
-
+/* fonts */
+	--inter_light_weight: 300;
+	--inter_semi_bold_weight: 600;
+	--inter_regular_weight: 400;
+	--inter_medium_weight: 500;
 }
