@@ -1,7 +1,12 @@
 :root {
 	/* colors */
-	--frontpage-background-color: #F9A03F;
-	--article-background-color: #4ECDC4;
-	--newsletter-background-color: #F27B63;
-	
+	--frontpage_background_color: #F9A03F;
+	--article-background_color: #4ECDC4;
+	--newsletter-background_color: #F27B63;
+
+	--secondary_background_color: #000000;
+	--headline_color: #FFFFFF;
+
+
+
 }
