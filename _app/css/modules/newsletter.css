@@ -4,6 +4,7 @@ main {
 	background-color: var(--newsletter-background_color);
 	width: 100%;
 	max-width: 870px;
+	padding-top: 14px;
 	height: 100vh;
 	margin: 0px auto 0px auto;
 }
@@ -19,4 +20,31 @@ main {
 body {
 	background-image: url(/_app/assets/images/Background-image-newsletter.avif);
 	background-size: cover;
+}
+
+ form {
+	margin: 0 auto;
+	width: 848px;
+	height: 100%;
+	background-color: var(--headline_color);
+ }
+
+.form__title-container {
+	height: 57px;
+	color: var(--headline_color);
+	background-color: var(--secondary_background_color);
+	font-weight: var(--inter_light_weight);
+	font-size: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+p {
+	font-weight: var(--inter_medium_weight);
+	font-size: 20px;
+	position: relative;
+	margin: 50px auto 0 auto;
+	width: 417px;
+	height: 79px;
 }
