@@ -4,7 +4,7 @@ main {
 	background-color: var(--newsletter-background_color);
 	width: 100%;
 	max-width: 870px;
-	padding-top: 14px;
+	padding-top: 10px;
 	height: 100vh;
 	margin: 0px auto 0px auto;
 }
@@ -82,4 +82,35 @@ input {
 	font-size: 36px;
 	margin-top: 40px;
 	font-weight: var(--inter_regular_weight);
+}
+
+@media (max-width: 870px) {
+	form {
+		width: 100%;
+	}
+
+	main {
+		padding-top: 0;
+	}
+
+	fieldset {
+		width: 390px;
+		margin-top: 69px;
+	}
+
+	input {
+		margin-top: 3px;
+	}
+
+	.header, .header__button{
+		background-color: var(--secondary_background_color);
+	}
+
+	.header__button {
+		color: var(--newsletter-background_color);
+	}
+
+	.header__newsletter-button-container, .header__menu-button-container {
+		border: 3px var(--newsletter-background_color) solid;
+	}
 }

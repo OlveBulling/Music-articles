@@ -12,3 +12,17 @@ body {
 	background-image: url(/_app/assets/images/Background-image-frontpage.avif);
 	background-size: cover;
 }
+
+@media (max-width: 870px) {
+	.header, .header__button{
+		background-color: var(--secondary_background_color);
+	}
+
+	.header__button {
+		color: var(--frontpage_background_color);
+	}
+
+	.header__newsletter-button-container, .header__menu-button-container {
+		border: 3px var(--frontpage_background_color) solid;
+	}
+}
