@@ -101,4 +101,16 @@ input {
 	input {
 		margin-top: 3px;
 	}
+
+	.header, .header__button{
+		background-color: var(--secondary_background_color);
+	}
+
+	.header__button {
+		color: var(--newsletter-background_color);
+	}
+
+	.header__newsletter-button-container, .header__menu-button-container {
+		border: 3px var(--newsletter-background_color) solid;
+	}
 }
