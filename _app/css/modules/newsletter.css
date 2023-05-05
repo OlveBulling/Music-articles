@@ -1,0 +1,85 @@
+@import url(/_app/css/variables.css);
+
+main {
+	background-color: var(--newsletter-background_color);
+	width: 100%;
+	max-width: 870px;
+	padding-top: 14px;
+	height: 100vh;
+	margin: 0px auto 0px auto;
+}
+
+.header, .header__button{
+	background-color: var(--newsletter-background_color);
+}
+
+.header__title {
+	color: var(--newsletter-background_color);
+}
+
+body {
+	background-image: url(/_app/assets/images/Background-image-newsletter.avif);
+	background-size: cover;
+}
+
+ form {
+	margin: 0 auto;
+	width: 848px;
+	height: 100%;
+	background-color: var(--headline_color);
+ }
+
+.form__title-container {
+	height: 57px;
+	color: var(--headline_color);
+	background-color: var(--secondary_background_color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form__title {
+	font-size: 36px;
+	font-weight: var(--inter_light_weight);
+}
+
+p {
+	font-weight: var(--inter_medium_weight);
+	font-size: 20px;
+	position: relative;
+	margin: 50px auto 0 auto;
+	width: 417px;
+	height: 79px;
+	text-align: center;
+}
+
+label {
+	font-weight: var(--inter_semi_bold_weight);
+	font-size: 20px;
+}
+fieldset {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 417px;
+	border: 0 none;
+	margin: 40px auto 0 auto;
+}
+
+input {
+	height: 49px;
+	width: 100%;
+	border: 1px solid var(--secondary_background_color);
+	margin-top: 12px;
+	font-size: 20px;
+	padding: 2px;
+}
+
+.form__button {
+	background-color: var(--newsletter-background_color);
+	width: 248px;
+	height: 56px;
+	font-size: 36px;
+	margin-top: 40px;
+	font-weight: var(--inter_regular_weight);
+}
