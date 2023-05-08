@@ -1,7 +1,7 @@
 @import url(/_app/css/variables.css);
 
 main {
-	background-color: var(--newsletter-background_color);
+	background-color: var(--newsletter_background_color);
 	width: 100%;
 	max-width: 870px;
 	padding-top: 10px;
@@ -10,11 +10,11 @@ main {
 }
 
 .header, .header__button{
-	background-color: var(--newsletter-background_color);
+	background-color: var(--newsletter_background_color);
 }
 
 .header__title {
-	color: var(--newsletter-background_color);
+	color: var(--newsletter_background_color);
 }
 
 body {
@@ -76,7 +76,7 @@ input {
 }
 
 .form__button {
-	background-color: var(--newsletter-background_color);
+	background-color: var(--newsletter_background_color);
 	width: 248px;
 	height: 56px;
 	font-size: 36px;
@@ -107,10 +107,10 @@ input {
 	}
 
 	.header__button {
-		color: var(--newsletter-background_color);
+		color: var(--newsletter_background_color);
 	}
 
 	.header__newsletter-button-container, .header__menu-button-container {
-		border: 3px var(--newsletter-background_color) solid;
+		border: 3px var(--newsletter_background_color) solid;
 	}
 }
