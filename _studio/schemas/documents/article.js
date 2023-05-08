@@ -48,13 +48,13 @@ export default {
 			of: [{ type: 'block' }],
 			validation: (Rule) => Rule.required()
 		},
-		// {
-		// 	title: 'Category',
-		// 	name: 'category',
-		// 	type: 'reference',
-		// 	to: { type: 'category' },
-		// 	validation: (Rule) => Rule.required()
-		// },
+		{
+			title: 'Category',
+			name: 'category',
+			type: 'reference',
+			to: { type: 'category' },
+			validation: (Rule) => Rule.required()
+		},
 		// {
 		// 	title: 'Related articles',
 		// 	name: 'related_articles',
