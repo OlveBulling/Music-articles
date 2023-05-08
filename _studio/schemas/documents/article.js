@@ -24,6 +24,12 @@ export default {
 			type: 'image',
 		},
 		{
+			title: 'Alt text',
+			name: 'alt_text',
+			type: 'string',
+			description: 'Alt text for the image',
+		},
+		{
 			title: 'Author',
 			name: 'author',
 			type: 'reference',
