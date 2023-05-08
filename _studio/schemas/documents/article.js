@@ -24,6 +24,12 @@ export default {
 			type: 'image',
 		},
 		{
+			title: 'Image source',
+			name: 'image_source',
+			type: 'string',
+			description: 'Paste image link here',
+		},
+		{
 			title: 'Alt text',
 			name: 'alt_text',
 			type: 'string',
