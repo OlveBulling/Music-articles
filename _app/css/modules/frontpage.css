@@ -4,13 +4,50 @@ main {
 	background-color: var(--frontpage_background_color);
 	width: 100%;
 	max-width: 870px;
-	height: 100vh;
+	height: 100%;
 	margin: 0px auto 0px auto;
 }
 
 body {
 	background-image: url(/_app/assets/images/Background-image-frontpage.avif);
 	background-size: cover;
+}
+
+#article-card__container {
+	width: 100%;
+	max-width: 870px;
+	height: 100%;
+	padding: 13px 11px 13px 11px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 19px;
+}
+
+.article__card {
+	width: 270px;
+	height: 400px;
+	border: 1px solid var(--secondary_background_color);
+	background-color: var(--secondary_background_color);
+	cursor: pointer;
+}
+
+.article__card-image {
+	height: 218px;
+	width: 100%;
+}
+
+.article__card-title {
+	height: 182px;
+	width: 270px;
+	color: var(--headline_color);
+	font-weight: var(--inter_regular_weight);
+	font-size: 25px;
+	text-align: center;
+	padding-top: 18px;
+}
+
+.article__card:hover {
+	transform: scale(1.01);
 }
 
 @media (max-width: 870px) {
