@@ -4,6 +4,8 @@ export default function generateArticleCards(article) {
 	const articleTitle = document.createElement("h2");
 
 	articleCard.className = "article__card";
+	articleImage.className = "article__card-image";
+	articleTitle.className = "article__card-title";
 
 	articleImage.src = article.image;
 	articleImage.alt = article.image_alt_text;
