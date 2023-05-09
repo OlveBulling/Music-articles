@@ -47,8 +47,7 @@ body {
 }
 
 .article__card:hover {
-	transform: scale(1.05);
-	background-color: var(--headline_color);
+	transform: scale(1.01);
 }
 
 @media (max-width: 870px) {
