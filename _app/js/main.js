@@ -1,5 +1,3 @@
-import { getAllArticles } from "./modules/get-articles.js";
-import { generateArticleCards } from "./modules/generate-article-cards.js";
+import { renderArticleCards } from "./modules/render-article-cards.js";
 
-generateArticleCards();
-getAllArticles();
+renderArticleCards();
