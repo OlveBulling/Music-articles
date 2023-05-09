@@ -13,6 +13,13 @@ body {
 	background-size: cover;
 }
 
+.article-card__container {
+	width: 100%;
+	max-width: 870px;
+	height: 100%;
+	margin-top: 67px;
+}
+
 @media (max-width: 870px) {
 	.header, .header__button{
 		background-color: var(--secondary_background_color);
