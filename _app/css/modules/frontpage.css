@@ -4,7 +4,7 @@ main {
 	background-color: var(--frontpage_background_color);
 	width: 100%;
 	max-width: 870px;
-	height: 100vh;
+	height: 100%;
 	margin: 0px auto 0px auto;
 }
 
@@ -13,11 +13,32 @@ body {
 	background-size: cover;
 }
 
-.article-card__container {
+#article-card__container {
 	width: 100%;
 	max-width: 870px;
 	height: 100%;
-	margin-top: 67px;
+	padding: 13px 11px 0 11px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 19px;
+}
+
+.article__card {
+	width: 270px;
+	height: 400px;
+	border: 1px solid var(--secondary_background_color);
+	background-color: var(--secondary_background_color);
+}
+
+.article__card-image {
+	height: 218px;
+	width: 100%;
+}
+
+.article__card-title {
+	height: 182px;
+	width: 270px;
+	color: var(--headline_color);
 }
 
 @media (max-width: 870px) {
