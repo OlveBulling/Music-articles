@@ -28,6 +28,7 @@ body {
 	height: 400px;
 	border: 1px solid var(--secondary_background_color);
 	background-color: var(--secondary_background_color);
+	cursor: pointer;
 }
 
 .article__card-image {
@@ -43,6 +44,11 @@ body {
 	font-size: 25px;
 	text-align: center;
 	padding-top: 18px;
+}
+
+.article__card:hover {
+	transform: scale(1.05);
+	background-color: var(--headline_color);
 }
 
 @media (max-width: 870px) {
