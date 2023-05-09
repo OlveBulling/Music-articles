@@ -67,11 +67,16 @@ export default {
 			to: { type: 'category' },
 			validation: (Rule) => Rule.required()
 		},
-		// {
-		// 	title: 'Related articles',
-		// 	name: 'related_articles',
-		// 	type: 'reference',
-		// 	to: { type: 'article' }
-		// }
+		{
+			title: 'Related articles',
+			name: 'related_articles',
+			type: 'array',
+			of: [
+				{
+					type: 'reference',
+					to: { type: 'article' },
+				}
+			]
+		}
 	]
 }
