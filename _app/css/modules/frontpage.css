@@ -34,6 +34,7 @@ body {
 .article__card-image {
 	height: 218px;
 	width: 100%;
+	object-fit: cover;
 }
 
 .article__card-title {
@@ -48,6 +49,10 @@ body {
 
 .article__card:hover {
 	transform: scale(1.01);
+}
+
+.article__card:hover .article__card-title {
+	color: var(--article_background_color)
 }
 
 @media (max-width: 870px) {
