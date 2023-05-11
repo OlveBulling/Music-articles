@@ -1,16 +1,15 @@
-import { getAllArticles } from "./get-articles.js";
+import { getAllCategories } from "./get-categories.js";
 
 export async function generateCategoryButtons() {
-	const articles = await getAllArticles();
+	const categories = await getAllCategories();
 
 	const buttonContainer = document.getElementById('menu__category-button-container');
 
-	articles.forEach((article, index) => {
-		const categories = articles[index].category;
+	categories.forEach(category => {
 		const categoryButton = document.createElement('button');
 
 		categoryButton.className = 'menu__category-button'
-		categoryButton.innerText = categories;
+		categoryButton.innerText = category.category;
 
 		buttonContainer.appendChild(categoryButton);
 
