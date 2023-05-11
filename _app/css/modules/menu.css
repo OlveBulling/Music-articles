@@ -32,3 +32,17 @@
 	color: var(--frontpage_background_color);
 	font-weight: var(--inter_light_weight);
 }
+
+@media (max-width: 870px) {
+	#menu__category-button-container {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 20px;
+	}
+
+	.menu__category-button {
+		min-width: 100px;
+		min-height: 50px;
+		margin: auto;
+	}
+}
