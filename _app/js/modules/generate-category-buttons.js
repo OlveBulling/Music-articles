@@ -1,3 +1,4 @@
+import { filterArticlesByCategory } from "./filter-by-category.js";
 import { getAllCategories } from "./get-categories.js";
 
 export async function generateCategoryButtons() {
@@ -6,11 +7,16 @@ export async function generateCategoryButtons() {
 	const buttonContainer = document.getElementById('menu__category-button-container');
 
 	categories.forEach(category => {
-		const categoryButton = document.createElement('button');
+   	const categoryButton = document.createElement('button');
 
-		categoryButton.className = 'menu__category-button'
-		categoryButton.innerText = category.category;
+   	categoryButton.className = 'menu__category-button'
+   	categoryButton.innerText = category.category;
 
-		buttonContainer.appendChild(categoryButton);
-	})
+   	buttonContainer.appendChild(categoryButton);
+
+   	categoryButton.addEventListener('click', () => {
+			const category = categoryButton.textContent;
+			filterArticlesByCategory(category);
+		 });
+	});
 }
