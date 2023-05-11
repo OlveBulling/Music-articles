@@ -46,12 +46,8 @@ body {
 	padding-top: 18px;
 }
 
-.article__card:hover {
-	transform: scale(1.01);
-}
-
 .article__card:hover .article__card-title {
-	color: var(--article_background_color)
+	color: var(--article_background_color);
 }
 
 @media (max-width: 870px) {

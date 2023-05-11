@@ -87,6 +87,12 @@ input {
 	font-size: 36px;
 	margin-top: 40px;
 	font-weight: var(--inter_regular_weight);
+	cursor: pointer;
+}
+
+.form__button:hover {
+	color: var(--frontpage_background_color);
+	background-color: var(--secondary_background_color);
 }
 
 @media (max-width: 870px) {
@@ -117,5 +123,10 @@ input {
 
 	.header__newsletter-button-container, .header__menu-button-container {
 		border: 3px var(--newsletter_background_color) solid;
+	}
+
+	.header__newsletter-button:hover {
+		background-color: inherit;
+		transform: none;
 	}
 }
