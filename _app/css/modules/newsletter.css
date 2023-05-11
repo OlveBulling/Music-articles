@@ -118,4 +118,9 @@ input {
 	.header__newsletter-button-container, .header__menu-button-container {
 		border: 3px var(--newsletter_background_color) solid;
 	}
+
+	.header__newsletter-button:hover {
+		background-color: inherit;
+		transform: none;
+	}
 }
