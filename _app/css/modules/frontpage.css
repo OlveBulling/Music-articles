@@ -4,6 +4,7 @@ main {
 	background-color: var(--frontpage_background_color);
 	width: 100%;
 	max-width: 870px;
+	min-height: 100vh;
 	height: 100%;
 	margin: 0px auto 0px auto;
 }
@@ -28,6 +29,7 @@ body {
 	height: 400px;
 	background-color: var(--secondary_background_color);
 	cursor: pointer;
+	position: relative;
 }
 
 .article__card-image {
@@ -42,8 +44,15 @@ body {
 	color: var(--headline_color);
 	font-weight: var(--inter_regular_weight);
 	font-size: 25px;
-	text-align: center;
 	padding-top: 18px;
+}
+
+.article__card-category {
+	color: var(--article_background_color);
+	position: absolute;
+	top: 0;
+	font-size: 25px;
+	font-weight: var(--inter_light_weight);
 }
 
 .article__card:hover .article__card-title {
