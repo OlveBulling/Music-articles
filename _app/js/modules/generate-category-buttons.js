@@ -3,7 +3,7 @@ import { getAllArticles } from "./get-articles.js";
 export async function generateCategoryButtons() {
 	const articles = await getAllArticles();
 
-	const buttonContainer = document.getElementById('menu__category-buttons-container');
+	const buttonContainer = document.getElementById('menu__category-button-container');
 
 	articles.forEach((article, index) => {
 		const categories = articles[index].category;
