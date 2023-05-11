@@ -50,6 +50,10 @@ body {
 	color: var(--article_background_color);
 }
 
+.hidden-article {
+	display: none;
+}
+
 @media (max-width: 870px) {
 	.header, .header__button{
 		background-color: var(--secondary_background_color);
