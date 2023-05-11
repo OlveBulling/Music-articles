@@ -87,6 +87,12 @@ input {
 	font-size: 36px;
 	margin-top: 40px;
 	font-weight: var(--inter_regular_weight);
+	cursor: pointer;
+}
+
+.form__button:hover {
+	color: var(--frontpage_background_color);
+	background-color: var(--secondary_background_color);
 }
 
 @media (max-width: 870px) {
