@@ -1,0 +1,25 @@
+#menu {
+	background-color: var(--secondary_background_color);
+	width: 100%;
+	padding: 5px;
+	font-family: 'inter' sans-serif;
+}
+
+#menu__category-button-container {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 10px;
+}
+
+.menu__category-button {
+	padding: 5px;
+	font-size: 20px;
+	color: var(--secondary_background_color);
+	background-color: var(--headline_color);
+	font-weight: var(--inter_semi_bold_weight);
+	font-family: inherit;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
