@@ -12,6 +12,5 @@ export async function generateCategoryButtons() {
 		categoryButton.innerText = category.category;
 
 		buttonContainer.appendChild(categoryButton);
-
 	})
 }
