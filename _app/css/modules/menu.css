@@ -21,6 +21,7 @@
 	cursor: pointer;
 	outline: none;
 	border: none;
+	min-width: 90px;
 }
 
 .menu__category-button:hover {
