@@ -24,7 +24,7 @@ header {
 	outline: none;
 }
 
-.header__newsletter-button:hover {
+.header__newsletter-button:hover, .header__menu-button:hover {
 	background-color: var(--newsletter_background_color);
 	transform: scale(1.01);
 }
@@ -70,5 +70,10 @@ header {
 
 	.header__button {
 		width: 100%;
+	}
+
+	.header__newsletter-button:hover, .header__menu-button:hover {
+		background-color: var(--newsletter_background_color);
+		transform: none;
 	}
 }

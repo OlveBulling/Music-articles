@@ -59,7 +59,7 @@ body {
 		color: var(--frontpage_background_color);
 	}
 
-	.header__newsletter-button:hover {
+	.header__newsletter-button:hover, .header__menu-button:hover {
 		color: var(--newsletter_background_color);
 		background-color: var(--secondary_background_color);
 	}

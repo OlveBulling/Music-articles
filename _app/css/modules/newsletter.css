@@ -95,6 +95,10 @@ input {
 	background-color: var(--secondary_background_color);
 }
 
+.header__menu-button:hover {
+	background-color: var(--frontpage_background_color);
+}
+
 @media (max-width: 870px) {
 	form {
 		width: 100%;
@@ -128,5 +132,11 @@ input {
 	.header__newsletter-button:hover {
 		background-color: inherit;
 		transform: none;
+	}
+
+	.header__menu-button:hover {
+		background-color: inherit;
+		transform: none;
+		color: var(--frontpage_background_color);
 	}
 }
