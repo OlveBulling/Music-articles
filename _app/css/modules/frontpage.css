@@ -30,6 +30,11 @@ body {
 	background-color: var(--secondary_background_color);
 	cursor: pointer;
 	position: relative;
+	text-align: center;
+}
+
+.article__card:focus {
+	outline: solid 7px var(--article_background_color);
 }
 
 .article__card-image {
@@ -50,9 +55,11 @@ body {
 .article__card-category {
 	color: var(--article_background_color);
 	position: absolute;
-	top: 0;
+	bottom: 0;
+	right: 0;
 	font-size: 25px;
-	font-weight: var(--inter_light_weight);
+	font-weight: var(--inter_regular_weight);
+	padding: 5px;
 }
 
 .article__card:hover .article__card-title {

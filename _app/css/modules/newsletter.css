@@ -90,6 +90,10 @@ input {
 	cursor: pointer;
 }
 
+.form__button:focus, #email:focus {
+	outline: solid 7px var(--article_background_color);
+}
+
 .form__button:hover {
 	color: var(--frontpage_background_color);
 	background-color: var(--secondary_background_color);
