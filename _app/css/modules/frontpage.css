@@ -50,9 +50,11 @@ body {
 .article__card-category {
 	color: var(--article_background_color);
 	position: absolute;
-	top: 0;
+	bottom: 0;
+	right: 0;
 	font-size: 25px;
-	font-weight: var(--inter_light_weight);
+	font-weight: var(--inter_regular_weight);
+	padding: 5px;
 }
 
 .article__card:hover .article__card-title {
