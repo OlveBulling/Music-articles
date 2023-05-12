@@ -30,6 +30,7 @@ body {
 	background-color: var(--secondary_background_color);
 	cursor: pointer;
 	position: relative;
+	text-align: center;
 }
 
 .article__card-image {
