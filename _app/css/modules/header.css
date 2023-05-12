@@ -36,12 +36,17 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .header__title {
 	font-size: 50px;
 	font-weight: var(--inter_light_weight);
 	color: var(--frontpage_background_color);
+}
+
+a:focus, .header__button:focus {
+	outline: solid 7px var(--article_background_color);
 }
 
 @media (max-width: 870px) {
