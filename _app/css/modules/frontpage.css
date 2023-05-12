@@ -33,6 +33,10 @@ body {
 	text-align: center;
 }
 
+.article__card:focus {
+	outline: solid 7px var(--article_background_color);
+}
+
 .article__card-image {
 	height: 218px;
 	width: 100%;
