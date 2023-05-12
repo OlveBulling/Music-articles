@@ -73,6 +73,11 @@ a:focus, .header__button:focus {
 		grid-column: 1 / 3;
 	}
 
+	.header__title-container:focus {
+		outline: none;
+		border: 7px solid var(--article_background_color);
+	}
+
 	.header__button {
 		width: 100%;
 	}
