@@ -55,3 +55,10 @@
 		margin: auto;
 	}
 }
+
+@media (max-width: 490px) {
+	#menu__category-button-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
