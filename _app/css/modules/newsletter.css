@@ -23,8 +23,7 @@ main {
 }
 
 body {
-	background-image: url(/_app/assets/images/Background-image-newsletter.avif);
-	background-size: cover;
+	background-color: var(--secondary_background_color);
 }
 
  form {

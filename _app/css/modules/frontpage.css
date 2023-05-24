@@ -10,7 +10,7 @@ main {
 }
 
 body {
-	background-image: url(/_app/assets/images/Background-image-frontpage.avif);
+	background-color: var(--secondary_background_color);
 	background-size: cover;
 }
 
