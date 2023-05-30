@@ -1,6 +1,4 @@
 :root {
-	font-family: 'Inter',sans-serif;
-
 /* colors */
 	--frontpage_background_color: #F9A03F;
 	--article_background_color: #4ECDC4;
@@ -10,6 +8,7 @@
 	--headline_color: #FFFFFF;
 
 /* fonts */
+	font-family: 'Inter',sans-serif;
 	--inter_light_weight: 300;
 	--inter_semi_bold_weight: 600;
 	--inter_regular_weight: 400;
