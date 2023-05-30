@@ -3,6 +3,6 @@ export default function showMenu() {
 	const menu = document.getElementById('menu');
 
 	menuButton.addEventListener('click', function() {
-		menu.classList.toggle('menu-hidden');
+		menu.classList.toggle('menu--hidden');
 	})
 }
