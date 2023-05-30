@@ -44,8 +44,8 @@ header {
 	color: var(--frontpage_background_color);
 }
 
-a:focus, .header__button:focus {
-	outline: solid 7px var(--article_background_color);
+.header__button:focus {
+	border: solid 3px var(--article_background_color);
 }
 
 @media (max-width: 870px) {
