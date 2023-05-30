@@ -1,8 +1,8 @@
 export default function generateArticleCards(article) {
 	const articleCard = document.createElement("button");
 	const articleImage = document.createElement("img");
-	const articleTitle = document.createElement("h2");
-	const articleCategory = document.createElement("h3");
+	const articleTitle = document.createElement("h3");
+	const articleCategory = document.createElement("p");
 
 	articleCard.className = "article__card";
 	articleImage.className = "article__card-image";
