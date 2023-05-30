@@ -1,6 +1,7 @@
 import { sanity } from "../sanity.js";
 
 export async function getAllArticles() {
+	// fetching more information than dispalayed in cards for future purposes
 	const query = `*[_type == 'article'] {
 		'image': image.asset->url,
 		title,
