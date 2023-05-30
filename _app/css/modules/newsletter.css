@@ -103,6 +103,7 @@ input {
 	color: var(--frontpage_background_color);
 }
 
+/* mobile styling */
 @media (max-width: 870px) {
 	form {
 		width: 100%;

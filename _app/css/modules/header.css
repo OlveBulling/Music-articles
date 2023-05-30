@@ -48,6 +48,7 @@ header {
 	border: solid 3px var(--article_background_color);
 }
 
+/* mobile styling */
 @media (max-width: 870px) {
 	header {
 		height: 112px;
