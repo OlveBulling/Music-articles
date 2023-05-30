@@ -31,7 +31,7 @@ body {
 	background-color: var(--secondary_background_color);
 }
 
- form {
+form {
 	margin: 0 auto;
 	width: 848px;
 	height: 100%;
@@ -66,6 +66,7 @@ label {
 	font-weight: var(--inter_semi_bold_weight);
 	font-size: 20px;
 }
+
 fieldset {
 	display: flex;
 	flex-direction: column;
@@ -125,16 +126,30 @@ input {
 		margin-top: 3px;
 	}
 
+	.header__container {
+		height: 112px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+
+	.header__title {
+		width: 100%;
+		height: 56px;
+		grid-row: 1 / 3;
+		grid-column: 1 / 3;
+	}
+
 	.header, .header__button{
 		background-color: var(--secondary_background_color);
 	}
 
 	.header__button {
 		color: var(--newsletter_background_color);
-	}
-
-	.header__newsletter-button-container, .header__menu-button-container {
 		border: 3px var(--newsletter_background_color) solid;
+		width: 100%;
+		height: 56px;
+		width: 100%;
 	}
 
 	.header__newsletter-button:hover {
