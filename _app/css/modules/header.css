@@ -15,38 +15,37 @@ header {
 .header__button {
 	font-size: 30px;
 	font-weight: var(--inter_semi_bold_weight);
-	background-color: var(--frontpage_background_color);
 	width: 197px;
 	height: 40px;
-	border: none;
-	padding: 0;
 	cursor: pointer;
-	outline: none;
-}
-
-.header__newsletter-button:hover, .header__menu-button:hover {
-	background-color: var(--newsletter_background_color);
-	transform: scale(1.01);
-}
-
-.header__newsletter-button-container, .header__menu-button-container, .header__title-container {
 	background-color: var(--secondary_background_color);
+	color: var(--frontpage_background_color);
 	width: 321px;
 	height: 56px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	border: 2px var(--frontpage_background_color) solid;
+}
+
+.header__newsletter-button:hover, .header__menu-button:hover {
+	color: var(--newsletter_background_color);
+	transform: scale(1.01);
 }
 
 .header__title {
+	background-color: var(--secondary_background_color);
+	width: 321px;
+	height: 56px;
+	justify-content: center;
+	text-align: center;
 	font-size: 50px;
 	font-weight: var(--inter_light_weight);
 	color: var(--frontpage_background_color);
 }
 
-a:focus, .header__button:focus {
-	outline: solid 7px var(--article_background_color);
+.header__button:focus {
+	border: solid 3px var(--article_background_color);
 }
 
 @media (max-width: 870px) {
@@ -61,24 +60,21 @@ a:focus, .header__button:focus {
 		grid-template-rows: repeat(2, 1fr);
 	}
 
-	.header__newsletter-button-container, .header__menu-button-container {
-		height: 56px;
-		width: 100%;
-	}
-
-	.header__title-container {
+	.header__title {
 		width: 100%;
 		height: 56px;
 		grid-row: 1 / 3;
 		grid-column: 1 / 3;
 	}
 
-	.header__title-container:focus {
+	.header__title:focus {
 		outline: none;
 		border: 7px solid var(--article_background_color);
 	}
 
 	.header__button {
+		width: 100%;
+		height: 56px;
 		width: 100%;
 	}
 
