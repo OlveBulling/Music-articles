@@ -9,8 +9,13 @@ main {
 	margin: 0px auto 0px auto;
 }
 
-.header, .header__button{
+.header {
 	background-color: var(--newsletter_background_color);
+}
+
+.header__button {
+	color: var(--newsletter_background_color);
+	border: var(--newsletter_background_color) 2px solid;
 }
 
 .header__title {
@@ -98,8 +103,8 @@ input {
 	background-color: var(--secondary_background_color);
 }
 
-.header__menu-button:hover {
-	background-color: var(--frontpage_background_color);
+.header__button:hover {
+	color: var(--frontpage_background_color);
 }
 
 @media (max-width: 870px) {
