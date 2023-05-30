@@ -22,11 +22,6 @@ main {
 	color: var(--newsletter_background_color);
 }
 
-.header__title:hover {
-	color: var(--frontpage_background_color);
-	transform: scale(1.01);
-}
-
 body {
 	background-color: var(--secondary_background_color);
 }
