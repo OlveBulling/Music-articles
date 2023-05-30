@@ -70,10 +70,11 @@ body {
 	color: var(--article_background_color);
 }
 
-.hidden-article {
+.article__card--hidden {
 	display: none;
 }
 
+/* mobile styling */
 @media (max-width: 870px) {
 	.header, .header__button{
 		background-color: var(--secondary_background_color);
